@@ -1,15 +1,18 @@
 #include<iostream>
 using namespace std;
 int main(){
-int size;
-cout<<"Enter the Size of triangle :";
-cin>>size;
-for(int i=1 ;i<=size ;i++){
-    for(int j=1 ; j<=i ;j++){
-        cout<<"*";
-    }
-    cout<<endl;
+int n;
+
+    cin>>n;
+    int sum=0;
+   int ar[n];
+    for(int i=0 ;i<n;i++){
+    cin>>ar[i];
 }
+for(int i=0 ;i<n;i++){
+    sum+=ar[i];
+}
+cout<<sum;
 
 
 }

@@ -23,9 +23,7 @@ for(int i=0 ;i<3 ;i++){
      passcount=passcount+1;
 
     }
-    else{
-        cout<<" ";
-    }
+
 
 }
    cout<<passcount;
